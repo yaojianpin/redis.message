@@ -1,6 +1,7 @@
 # redis.message 
 
 Wrap Redis pub/sub and store message even if the website stopped
+
 Even if the sub console is breaked, when restarted, it can continue to receive the message
 
 # Requires
@@ -28,7 +29,7 @@ search 	Redis.Message in nuget
   var name = "client 2";
   using (var client = new Redis.Message.RedisMessageClient(name, <host>, <port>, <password>))
   {
-      // message is dynamic type
+      // The message is dynamic type
       client.On("test-message", (message) =>
       {
           string text = message.text;
