@@ -2,7 +2,7 @@
 
 Wrap Redis pub/sub and store message even if the website stopped
 
-# requires
+# Requires
 .net framework 4.5+
 
 # How to use it
