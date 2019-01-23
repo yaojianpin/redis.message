@@ -8,8 +8,7 @@ Even if the sub console is breaked, when restarted, it can continue to receive t
 .net framework 4.5+
 
 # How to use it
-search 	Redis.Message in nuget
-
+Install-Package Redis.Message -Version 1.0.0
 
 # Example
 ## publish message
